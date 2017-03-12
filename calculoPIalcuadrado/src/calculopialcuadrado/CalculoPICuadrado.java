@@ -5,6 +5,8 @@
  */
 package calculopialcuadrado;
 
+import java.math.BigDecimal;
+
 public class CalculoPICuadrado {
     /**
      * Se encarga de elevar al cuadrado la constante PI
@@ -22,9 +24,7 @@ public class CalculoPICuadrado {
             calculoPICuadrado.calcularPiAlCuadrado();
     }
     
-}
-class BigDecimal{
-    
+} 
     public BigDecimal calcularAreaCirculo (BigDecimal radio){
     
         BigDecimal areaCirculo;
@@ -41,7 +41,6 @@ class BigDecimal{
             
             return areaCirculo;
     }
-}
 
 public static void main (string[] args) {
 
@@ -51,7 +50,8 @@ public static void main (string[] args) {
 
         BigDecimal areacirculo;
             
-            areaCirculo = calculoPIBigDecimal.calcularAreaCirculo(radio);
+        areaCirculo = calculoPIBigDecimal.calcularAreaCirculo(radio);
 
-System.out.println("Area del Circulo(pi*r^2) = " + areaCirculo);
+    System.out.println("Area del Circulo(pi*r^2) = " + areaCirculo);
+
 }
